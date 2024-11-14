@@ -1,0 +1,33 @@
+{
+  "name": "web_price_update",
+  "version": "1.0.0",
+  "description": "An Api to fetch data from ERP and update to Web Site API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PR",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chalk": "^4.1.2",
+    "csv-parser": "^3.0.0",
+    "date-and-time": "^3.6.0",
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "express.io": "^1.1.13",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "macaddress": "^0.5.3",
+    "mssql": "^11.0.1",
+    "multicast-dns": "^7.2.5",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^11.0.3"
+  }
+}
