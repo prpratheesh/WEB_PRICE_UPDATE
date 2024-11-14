@@ -106,7 +106,7 @@ router.get("/WEB_API/UpdateAllArticles", async (req, res) => {
 });
 ///////////////////////////////////UPDATE ALL ARTICLE///////////////////////////////////
 //////////////////////////////////UPDATE SINGLE ARTICLE/////////////////////////////////
-router.get("/WEB_API/UpdateSingleArticle", async (req, res) => {
+router.get("/WEB_API/UpdateSingleArticle", async (req, res) => {//
     const threadId = generateThreadId(); // Generate a unique thread ID for each request
     console.log(chalk.bgMagentaBright(`${new Date().toLocaleString()} - THREAD ID: ${threadId} - FETCHING ALL ARTICLE INFO STARTED.`));
     res.header("content-type: application/json");

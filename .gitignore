@@ -15,3 +15,7 @@ build/
 # Debugger configurations
 .vscode/
 .idea/
+
+# Certificates
+cert/key.pem
+cert/cert.pem
